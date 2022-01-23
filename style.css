@@ -3,8 +3,9 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
-
-
+.text-color{
+    color: #231D4F;
+}
 .button-color{
     background: #0D70AA;
 }
@@ -18,4 +19,14 @@ button,button a{
 .btn-about:hover img{
  transform: translateX(15px);
  transition:.3s ease-in-out;
+}
+.hot{
+    position: relative;
+}
+.hot-deal{
+    position: absolute;
+    top:-10px;
+    z-index: 1;
+    background: red;
+    color: white;
 }
